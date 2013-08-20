@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE701A7E1746C96200701670 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE701A7D1746C96200701670 /* UIKit.framework */; };
+		CE701A801746C96200701670 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE701A7F1746C96200701670 /* Foundation.framework */; };
+		CE701A821746C96200701670 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE701A811746C96200701670 /* CoreGraphics.framework */; };
+		CE701A881746C96200701670 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE701A861746C96200701670 /* InfoPlist.strings */; };
+		CE701A8A1746C96200701670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701A891746C96200701670 /* main.m */; };
+		CE701A8E1746C96200701670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701A8D1746C96200701670 /* AppDelegate.m */; };
+		CE701A901746C96200701670 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE701A8F1746C96200701670 /* Default.png */; };
+		CE701A921746C96200701670 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE701A911746C96200701670 /* Default@2x.png */; };
+		CE701A941746C96200701670 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE701A931746C96200701670 /* Default-568h@2x.png */; };
+		CE701A971746C96200701670 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE701A951746C96200701670 /* MainStoryboard.storyboard */; };
+		CE701A9A1746C96200701670 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701A991746C96200701670 /* FirstViewController.m */; };
+		CE701A9C1746C96200701670 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CE701A9B1746C96200701670 /* first.png */; };
+		CE701A9E1746C96200701670 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE701A9D1746C96200701670 /* first@2x.png */; };
+		CE701AA11746C96200701670 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701AA01746C96200701670 /* SecondViewController.m */; };
+		CE701AA31746C96200701670 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CE701AA21746C96200701670 /* second.png */; };
+		CE701AA51746C96200701670 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE701AA41746C96200701670 /* second@2x.png */; };
+		CE701AAC1746C97700701670 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE701AAB1746C97700701670 /* CoreData.framework */; };
+		CE701AAF1746C9A000701670 /* GradeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE701AAD1746C9A000701670 /* GradeModel.xcdatamodeld */; };
+		CE701AB11746D3DC00701670 /* uptrend.png in Resources */ = {isa = PBXBuildFile; fileRef = CE701AB01746D3DC00701670 /* uptrend.png */; };
+		CE701AB31746D54100701670 /* 001 Home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE701AB21746D54100701670 /* 001 Home@2x.png */; };
+		CE701AF71746E14C00701670 /* icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = CE701AF61746E14C00701670 /* icon4.png */; };
+		CE701AF91746E19300701670 /* icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = CE701AF81746E19300701670 /* icon5.png */; };
+		CE701AFB1746E19E00701670 /* icon6.png in Resources */ = {isa = PBXBuildFile; fileRef = CE701AFA1746E19E00701670 /* icon6.png */; };
+		CE701AFE1746E3B100701670 /* NewModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701AFD1746E3B100701670 /* NewModuleViewController.m */; };
+		CE701B011746E44200701670 /* level4DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701B001746E44200701670 /* level4DetailController.m */; };
+		CE701B071746E4C400701670 /* level4MasterController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701B061746E4C400701670 /* level4MasterController.m */; };
+		CE701B0A1746E4E500701670 /* level5MasterController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701B091746E4E500701670 /* level5MasterController.m */; };
+		CE701B0D1746E4FE00701670 /* level6MasterController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701B0C1746E4FE00701670 /* level6MasterController.m */; };
+		CE701B101746E51F00701670 /* level6DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701B0F1746E51F00701670 /* level6DetailController.m */; };
+		CE701B131746E53E00701670 /* level5DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE701B121746E53E00701670 /* level5DetailController.m */; };
+		CE701B171747071200701670 /* buttonAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = CE701B161747071200701670 /* buttonAdd.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE701A7A1746C96200701670 /* GradePP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradePP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE701A7D1746C96200701670 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE701A7F1746C96200701670 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE701A811746C96200701670 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE701A851746C96200701670 /* GradePP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GradePP-Info.plist"; sourceTree = "<group>"; };
+		CE701A871746C96200701670 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE701A891746C96200701670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE701A8B1746C96200701670 /* GradePP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GradePP-Prefix.pch"; sourceTree = "<group>"; };
+		CE701A8C1746C96200701670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE701A8D1746C96200701670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE701A8F1746C96200701670 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CE701A911746C96200701670 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CE701A931746C96200701670 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE701A961746C96200701670 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE701A981746C96200701670 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CE701A991746C96200701670 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CE701A9B1746C96200701670 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CE701A9D1746C96200701670 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		CE701A9F1746C96200701670 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CE701AA01746C96200701670 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CE701AA21746C96200701670 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		CE701AA41746C96200701670 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CE701AAB1746C97700701670 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE701AAE1746C9A000701670 /* GradeModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GradeModel.xcdatamodel; sourceTree = "<group>"; };
+		CE701AB01746D3DC00701670 /* uptrend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uptrend.png; sourceTree = "<group>"; };
+		CE701AB21746D54100701670 /* 001 Home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001 Home@2x.png"; sourceTree = "<group>"; };
+		CE701AF61746E14C00701670 /* icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon4.png; sourceTree = "<group>"; };
+		CE701AF81746E19300701670 /* icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon5.png; sourceTree = "<group>"; };
+		CE701AFA1746E19E00701670 /* icon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon6.png; sourceTree = "<group>"; };
+		CE701AFC1746E3B100701670 /* NewModuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewModuleViewController.h; sourceTree = "<group>"; };
+		CE701AFD1746E3B100701670 /* NewModuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewModuleViewController.m; sourceTree = "<group>"; };
+		CE701AFF1746E44200701670 /* level4DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = level4DetailController.h; sourceTree = "<group>"; };
+		CE701B001746E44200701670 /* level4DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = level4DetailController.m; sourceTree = "<group>"; };
+		CE701B051746E4C400701670 /* level4MasterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = level4MasterController.h; sourceTree = "<group>"; };
+		CE701B061746E4C400701670 /* level4MasterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = level4MasterController.m; sourceTree = "<group>"; };
+		CE701B081746E4E500701670 /* level5MasterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = level5MasterController.h; sourceTree = "<group>"; };
+		CE701B091746E4E500701670 /* level5MasterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = level5MasterController.m; sourceTree = "<group>"; };
+		CE701B0B1746E4FE00701670 /* level6MasterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = level6MasterController.h; sourceTree = "<group>"; };
+		CE701B0C1746E4FE00701670 /* level6MasterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = level6MasterController.m; sourceTree = "<group>"; };
+		CE701B0E1746E51F00701670 /* level6DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = level6DetailController.h; sourceTree = "<group>"; };
+		CE701B0F1746E51F00701670 /* level6DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = level6DetailController.m; sourceTree = "<group>"; };
+		CE701B111746E53E00701670 /* level5DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = level5DetailController.h; sourceTree = "<group>"; };
+		CE701B121746E53E00701670 /* level5DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = level5DetailController.m; sourceTree = "<group>"; };
+		CE701B161747071200701670 /* buttonAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonAdd.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE701A771746C96200701670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE701AAC1746C97700701670 /* CoreData.framework in Frameworks */,
+				CE701A7E1746C96200701670 /* UIKit.framework in Frameworks */,
+				CE701A801746C96200701670 /* Foundation.framework in Frameworks */,
+				CE701A821746C96200701670 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE701A711746C96200701670 = {
+			isa = PBXGroup;
+			children = (
+				CE701A831746C96200701670 /* GradePP */,
+				CE701A7C1746C96200701670 /* Frameworks */,
+				CE701A7B1746C96200701670 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE701A7B1746C96200701670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE701A7A1746C96200701670 /* GradePP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE701A7C1746C96200701670 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE701AAB1746C97700701670 /* CoreData.framework */,
+				CE701A7D1746C96200701670 /* UIKit.framework */,
+				CE701A7F1746C96200701670 /* Foundation.framework */,
+				CE701A811746C96200701670 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE701A831746C96200701670 /* GradePP */ = {
+			isa = PBXGroup;
+			children = (
+				CEEC37D71747B697007D46A9 /* model */,
+				CE701AEE1746DDB800701670 /* summary */,
+				CE701AED1746DDAF00701670 /* level6 */,
+				CE701AEC1746DDA600701670 /* level5 */,
+				CE701AEB1746DD9A00701670 /* level4 */,
+				CE701A8C1746C96200701670 /* AppDelegate.h */,
+				CE701A8D1746C96200701670 /* AppDelegate.m */,
+				CE701A951746C96200701670 /* MainStoryboard.storyboard */,
+				CE701A981746C96200701670 /* FirstViewController.h */,
+				CE701A991746C96200701670 /* FirstViewController.m */,
+				CE701AAD1746C9A000701670 /* GradeModel.xcdatamodeld */,
+				CE701A841746C96200701670 /* Supporting Files */,
+			);
+			path = GradePP;
+			sourceTree = "<group>";
+		};
+		CE701A841746C96200701670 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE701B161747071200701670 /* buttonAdd.png */,
+				CE701AA41746C96200701670 /* second@2x.png */,
+				CE701AA21746C96200701670 /* second.png */,
+				CE701A9D1746C96200701670 /* first@2x.png */,
+				CE701A9B1746C96200701670 /* first.png */,
+				CE701AFA1746E19E00701670 /* icon6.png */,
+				CE701AF81746E19300701670 /* icon5.png */,
+				CE701AF61746E14C00701670 /* icon4.png */,
+				CE701AB01746D3DC00701670 /* uptrend.png */,
+				CE701A851746C96200701670 /* GradePP-Info.plist */,
+				CE701A861746C96200701670 /* InfoPlist.strings */,
+				CE701A891746C96200701670 /* main.m */,
+				CE701AB21746D54100701670 /* 001 Home@2x.png */,
+				CE701A8B1746C96200701670 /* GradePP-Prefix.pch */,
+				CE701A8F1746C96200701670 /* Default.png */,
+				CE701A911746C96200701670 /* Default@2x.png */,
+				CE701A931746C96200701670 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE701AEB1746DD9A00701670 /* level4 */ = {
+			isa = PBXGroup;
+			children = (
+				CE701AFF1746E44200701670 /* level4DetailController.h */,
+				CE701B001746E44200701670 /* level4DetailController.m */,
+				CE701B051746E4C400701670 /* level4MasterController.h */,
+				CE701B061746E4C400701670 /* level4MasterController.m */,
+			);
+			name = level4;
+			sourceTree = "<group>";
+		};
+		CE701AEC1746DDA600701670 /* level5 */ = {
+			isa = PBXGroup;
+			children = (
+				CE701B081746E4E500701670 /* level5MasterController.h */,
+				CE701B091746E4E500701670 /* level5MasterController.m */,
+				CE701B111746E53E00701670 /* level5DetailController.h */,
+				CE701B121746E53E00701670 /* level5DetailController.m */,
+			);
+			name = level5;
+			sourceTree = "<group>";
+		};
+		CE701AED1746DDAF00701670 /* level6 */ = {
+			isa = PBXGroup;
+			children = (
+				CE701B0B1746E4FE00701670 /* level6MasterController.h */,
+				CE701B0C1746E4FE00701670 /* level6MasterController.m */,
+				CE701B0E1746E51F00701670 /* level6DetailController.h */,
+				CE701B0F1746E51F00701670 /* level6DetailController.m */,
+			);
+			name = level6;
+			sourceTree = "<group>";
+		};
+		CE701AEE1746DDB800701670 /* summary */ = {
+			isa = PBXGroup;
+			children = (
+				CE701A9F1746C96200701670 /* SecondViewController.h */,
+				CE701AA01746C96200701670 /* SecondViewController.m */,
+			);
+			name = summary;
+			sourceTree = "<group>";
+		};
+		CEEC37D71747B697007D46A9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CE701AFC1746E3B100701670 /* NewModuleViewController.h */,
+				CE701AFD1746E3B100701670 /* NewModuleViewController.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE701A791746C96200701670 /* GradePP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE701AA81746C96200701670 /* Build configuration list for PBXNativeTarget "GradePP" */;
+			buildPhases = (
+				CE701A761746C96200701670 /* Sources */,
+				CE701A771746C96200701670 /* Frameworks */,
+				CE701A781746C96200701670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradePP;
+			productName = GradePP;
+			productReference = CE701A7A1746C96200701670 /* GradePP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE701A721746C96200701670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = OkicDowejko;
+			};
+			buildConfigurationList = CE701A751746C96200701670 /* Build configuration list for PBXProject "GradePP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE701A711746C96200701670;
+			productRefGroup = CE701A7B1746C96200701670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE701A791746C96200701670 /* GradePP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE701A781746C96200701670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE701A881746C96200701670 /* InfoPlist.strings in Resources */,
+				CE701A901746C96200701670 /* Default.png in Resources */,
+				CE701A921746C96200701670 /* Default@2x.png in Resources */,
+				CE701A941746C96200701670 /* Default-568h@2x.png in Resources */,
+				CE701A971746C96200701670 /* MainStoryboard.storyboard in Resources */,
+				CE701A9C1746C96200701670 /* first.png in Resources */,
+				CE701A9E1746C96200701670 /* first@2x.png in Resources */,
+				CE701AA31746C96200701670 /* second.png in Resources */,
+				CE701AA51746C96200701670 /* second@2x.png in Resources */,
+				CE701AB11746D3DC00701670 /* uptrend.png in Resources */,
+				CE701AB31746D54100701670 /* 001 Home@2x.png in Resources */,
+				CE701AF71746E14C00701670 /* icon4.png in Resources */,
+				CE701AF91746E19300701670 /* icon5.png in Resources */,
+				CE701AFB1746E19E00701670 /* icon6.png in Resources */,
+				CE701B171747071200701670 /* buttonAdd.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE701A761746C96200701670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE701A8A1746C96200701670 /* main.m in Sources */,
+				CE701A8E1746C96200701670 /* AppDelegate.m in Sources */,
+				CE701A9A1746C96200701670 /* FirstViewController.m in Sources */,
+				CE701AA11746C96200701670 /* SecondViewController.m in Sources */,
+				CE701AAF1746C9A000701670 /* GradeModel.xcdatamodeld in Sources */,
+				CE701AFE1746E3B100701670 /* NewModuleViewController.m in Sources */,
+				CE701B011746E44200701670 /* level4DetailController.m in Sources */,
+				CE701B071746E4C400701670 /* level4MasterController.m in Sources */,
+				CE701B0A1746E4E500701670 /* level5MasterController.m in Sources */,
+				CE701B0D1746E4FE00701670 /* level6MasterController.m in Sources */,
+				CE701B101746E51F00701670 /* level6DetailController.m in Sources */,
+				CE701B131746E53E00701670 /* level5DetailController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE701A861746C96200701670 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE701A871746C96200701670 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE701A951746C96200701670 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE701A961746C96200701670 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE701AA61746C96200701670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CE701AA71746C96200701670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE701AA91746C96200701670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GradePP/GradePP-Prefix.pch";
+				INFOPLIST_FILE = "GradePP/GradePP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE701AAA1746C96200701670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GradePP/GradePP-Prefix.pch";
+				INFOPLIST_FILE = "GradePP/GradePP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE701A751746C96200701670 /* Build configuration list for PBXProject "GradePP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE701AA61746C96200701670 /* Debug */,
+				CE701AA71746C96200701670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE701AA81746C96200701670 /* Build configuration list for PBXNativeTarget "GradePP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE701AA91746C96200701670 /* Debug */,
+				CE701AAA1746C96200701670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE701AAD1746C9A000701670 /* GradeModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE701AAE1746C9A000701670 /* GradeModel.xcdatamodel */,
+			);
+			currentVersion = CE701AAE1746C9A000701670 /* GradeModel.xcdatamodel */;
+			path = GradeModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE701A721746C96200701670 /* Project object */;
+}
